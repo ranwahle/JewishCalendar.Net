@@ -41,7 +41,7 @@ namespace BillingEntities
 
     public static bool operator <=(HolidayDate date1, HolidayDate date2)
     {
-      return !(date2 > date1);
+       return !(date2 > date1);
     }
 
     public override bool Equals(object obj)

@@ -205,10 +205,11 @@ public class HolidaysCollection : List<Holiday>
     public static List<Holiday> GetHolidaysForDate(DateTime date)
     {
         List<Holiday> holidays = HolidaysCollection.GetHolidays(date);
-        HolidayDate holidayDate = DateExtensions.TotHolidayDate(date);
-        return Enumerable.ToList<Holiday>(Enumerable.Where<Holiday>((IEnumerable<Holiday>) holidays, (Func<Holiday, bool>) (holiday => holiday.DateFrom <= holidayDate && holiday.DateTo >= holidayDate)));
+        HolidayDate holidayDateFrom = DateExtensions.TotHolidayDate(date);
+        HolidayDate holidayDateTo = DateExtensions.TotHolidayDate(date.AddDays(1));
+        return holidays.Where(holiday => holiday.GrerorianDateFrom <= date && date <= holiday.GregorianDateTo).ToList();// Enumerable.ToList<Holiday>(Enumerable.Where<Holiday>((IEnumerable<Holiday>)holidays, (Func<Holiday, bool>)(holiday => holiday.DateFrom <= holidayDate && holiday.DateTo >= holidayDate)));
     }
-
+    
     private static T Deserialize<T>(Stream stream)
     {
         stream.Position = 0L;
@@ -228,4 +229,21 @@ public class HolidaysCollection : List<Holiday>
     }
 
     private delegate string ReturnHolidayName(HolidayName name);
+
+    public static List<Holiday> GetHolidaysForGregorianYear(int year)
+    {
+        DateTime endDate = new DateTime(year + 1, 1, 1).AddDays(-1);
+        DateTime startDate = new DateTime(year, 1, 1);
+        int beginYear = new HebrewCalendar().GetYear( startDate);//.toj
+        int endYear = new HebrewCalendar().GetYear(endDate);//.AddDays(-1));//.toj
+        
+        List<Holiday> result = new List<Holiday>();
+         result.AddRange(GetHolidays(beginYear));
+        result.AddRange(GetHolidays(endYear));
+
+        return result.Where(holiday => holiday.GrerorianDateFrom >= startDate &&
+            holiday.GrerorianDateFrom <= endDate).ToList();
+
+      
+    }
 }

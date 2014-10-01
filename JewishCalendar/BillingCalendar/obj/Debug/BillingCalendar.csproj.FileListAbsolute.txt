@@ -7,3 +7,12 @@ D:\test\JewishCalendar\BillingCalendar\bin\Debug\BillingCalendar.dll
 D:\test\JewishCalendar\BillingCalendar\bin\Debug\BillingCalendar.pdb
 D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.dll
 D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.pdb
+C:\JewishCalendar\JewishCalendar\BillingCalendar\bin\Debug\BillingCalendar.dll
+C:\JewishCalendar\JewishCalendar\BillingCalendar\bin\Debug\BillingCalendar.pdb
+C:\JewishCalendar\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.csprojResolveAssemblyReference.cache
+C:\JewishCalendar\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.HebrewLetters.resources
+C:\JewishCalendar\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.HebrewMonthes.resources
+C:\JewishCalendar\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.HijriMonthes.resources
+C:\JewishCalendar\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.csproj.GenerateResource.Cache
+C:\JewishCalendar\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.dll
+C:\JewishCalendar\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.pdb
