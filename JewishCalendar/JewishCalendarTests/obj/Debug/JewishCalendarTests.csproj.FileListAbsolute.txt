@@ -1,0 +1,7 @@
+D:\test\JewishCalendar\JewishCalendarTests\bin\Debug\JewishCalendarTests.dll
+D:\test\JewishCalendar\JewishCalendarTests\bin\Debug\JewishCalendarTests.pdb
+D:\test\JewishCalendar\JewishCalendarTests\obj\Debug\JewishCalendarTests.csprojResolveAssemblyReference.cache
+D:\test\JewishCalendar\JewishCalendarTests\obj\Debug\JewishCalendarTests.dll
+D:\test\JewishCalendar\JewishCalendarTests\obj\Debug\JewishCalendarTests.pdb
+D:\test\JewishCalendar\JewishCalendarTests\bin\Debug\BillingCalendar.dll
+D:\test\JewishCalendar\JewishCalendarTests\bin\Debug\BillingCalendar.pdb

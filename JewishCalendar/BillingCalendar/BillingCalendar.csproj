@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\Tests\JewishHilidays\bin\BillingCalendar.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{774E217F-159A-4523-8C9C-B490D8D093EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>BillingCalendar</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DateExtensions.cs" />
+    <Compile Include="HebrewDate.cs" />
+    <Compile Include="HijriDate.cs" />
+    <Compile Include="Holiday.cs" />
+    <Compile Include="HolidayCollection.cs" />
+    <Compile Include="HolidayDate.cs" />
+    <Compile Include="MuslimHolidays.cs" />
+    <Compile Include="DayOfeekWrapper.cs" />
+    <Compile Include="HebrewLetters.Designer.cs" />
+    <Compile Include="HebrewMonthes.Designer.cs" />
+    <Compile Include="HijriMonthes.Designer.cs" />
+    <Compile Include="DiasporaOrIsrael.cs" />
+    <Compile Include="eHebrewMonth.cs" />
+    <Compile Include="eHijriMonths.cs" />
+    <Compile Include="eHolidayReligion.cs" />
+    <Compile Include="eJewishHoliday.cs" />
+    <Compile Include="eLeapHebrewMonth.cs" />
+    <Compile Include="eLetters.cs" />
+    <Compile Include="eMuslimHoliday.cs" />
+    <Compile Include="eMuslimMonth.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="DayCorrctionType.cs" />
+    <Compile Include="HolidayName.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BillingCalendar\HebrewLetters.resx" />
+    <EmbeddedResource Include="BillingCalendar\HebrewMonthes.resx" />
+    <EmbeddedResource Include="BillingCalendar\HijriMonthes.resx" />
+    <EmbeddedResource Include="BillingCalendar\Holidays.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillingCalendar\HolidaysDictionary.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

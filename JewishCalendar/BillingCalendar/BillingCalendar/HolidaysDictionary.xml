@@ -1,0 +1,103 @@
+﻿<?xml version="1.0"?>
+<ArrayOfHolidayName xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HolidayName>
+    <Hebrew>ראש השנה</Hebrew>
+    <English>Rosh Hashana</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>ב' ראש השנה</Hebrew>
+    <English>Rosh Hashana 2</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>צום גדליה</Hebrew>
+    <English>Tzom Gedaliah</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>יום הכיפורים</Hebrew>
+    <English>Yom Kippur</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>סוכות</Hebrew>
+    <English>Sukkot</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>חול המועד סוכות</Hebrew>
+    <English>Sukkot</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>שמיני עצרת</Hebrew>
+    <English>Shmini Atzeret</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>חנוכה</Hebrew>
+    <English>Chanukah</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>צום עשרה בטבת</Hebrew>
+    <English>10th of Tevet</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>ט"ו בשבט</Hebrew>
+    <English>Tu Bishvat</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>תענית אסתר</Hebrew>
+    <English>Fast of Esther</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>פורים</Hebrew>
+    <English>Purim</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>שושן פורים</Hebrew>
+    <English>Shushan Purim</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>שבת הגדול</Hebrew>
+    <English>Shabbat HaGadol</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>פסח</Hebrew>
+    <English>Passover</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>חול המועד פסח</Hebrew>
+    <English>Passover</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>שביעי של פסח</Hebrew>
+    <English>7th Day of Passover</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>יום השואה</Hebrew>
+    <English>Holocaust Day</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>יום הזכרון</Hebrew>
+    <English>Memorial Day</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>יום העצמאות</Hebrew>
+    <English>Independence Day</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>ל"ג בעומר</Hebrew>
+    <English>Lag B'Omer</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>שבועות</Hebrew>
+    <English>Shavuot</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>י"ז בתמוז</Hebrew>
+    <English>Fast of 17 B'Tammuz</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>תשעה באב</Hebrew>
+    <English>9th B'Av</English>
+  </HolidayName>
+  <HolidayName>
+    <Hebrew>יום ירושלים</Hebrew>
+    <English>Jerusalem Day</English>
+  </HolidayName>
+</ArrayOfHolidayName>

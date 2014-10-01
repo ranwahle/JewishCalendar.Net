@@ -1,0 +1,9 @@
+D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.csprojResolveAssemblyReference.cache
+D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.HebrewLetters.resources
+D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.HebrewMonthes.resources
+D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.HijriMonthes.resources
+D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.csproj.GenerateResource.Cache
+D:\test\JewishCalendar\BillingCalendar\bin\Debug\BillingCalendar.dll
+D:\test\JewishCalendar\BillingCalendar\bin\Debug\BillingCalendar.pdb
+D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.dll
+D:\test\JewishCalendar\BillingCalendar\obj\Debug\BillingCalendar.pdb
